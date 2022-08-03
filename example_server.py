@@ -1,6 +1,6 @@
-from UdpSynchronous import UdpSynchronousServer
+from UdpAsynchronous import UdpAsynchronousServer
 
-udp_server = UdpSynchronousServer("127.0.0.1", 20001, 1024)
+udp_server = UdpAsynchronousServer("127.0.0.1", 20001, 1024)
 
 while(True):
     udp_server.read()
