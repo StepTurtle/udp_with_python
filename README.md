@@ -20,6 +20,8 @@ while(True):
     print(udp_server.from_where)
 ```
 
+</details>
+
 <details open>
 <summary>Client</summary>
 
@@ -31,3 +33,5 @@ udp_client = UdpSynchronousClient("127.0.0.1", 20001, 1024) # create object from
 while(True):
     udp_client.write(['a', 'b', counter]) # you can sent your datas with "write" function.
 ```
+
+</details>
